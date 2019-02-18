@@ -1,0 +1,36 @@
+@import url(bootstrap/reset.css);
+body {
+  font-family: "PT Sans", "Helvetica", sans-serif;
+  color: black;
+  line-height: 1.735;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  font-style: italic; }
+
+.keys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; }
+  .keys .row-1, .keys .row-2, .keys .row-3 {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .keys .row-1 .key, .keys .row-2 .key, .keys .row-3 .key {
+      background: #1d4fcf;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      color: white;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center; }
+  .keys .row-2 {
+    width: 75% !important; }
+  .keys .row-3 {
+    width: 70% !important; }
+
+/*# sourceMappingURL=main.css.map */
